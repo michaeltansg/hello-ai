@@ -78,7 +78,7 @@ def main():
         print(f"  Total cost: ${total_cost:.8f}")
 
     except Exception as e:
-        # Fallback to simple greeting if API fails
+        # Print error message if API call fails
         print(f"API Error: {e}")
 
 
