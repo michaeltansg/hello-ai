@@ -57,6 +57,7 @@ def main():
         # End timing and print execution time
         end_time = time.perf_counter()
         execution_time = end_time - start_time
+        print("\n======== STATISTICS ========")
         print(f"Execution time: {execution_time:.6f} seconds")
 
         # Calculate and display token usage and cost
